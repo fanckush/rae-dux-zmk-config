@@ -1,0 +1,19 @@
+# Copyright (c) 2022 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+if SHIELD_ERICHT_SAMOKLAVA_LEFT
+
+config ZMK_KEYBOARD_NAME
+	default "ericht-samoklava"
+
+config ZMK_SPLIT_BLE_ROLE_CENTRAL
+	default y
+
+endif
+
+if SHIELD_ERICHT_SAMOKLAVA_LEFT || SHIELD_ERICHT_SAMOKLAVA_RIGHT
+
+config ZMK_SPLIT
+	default y
+
+endif

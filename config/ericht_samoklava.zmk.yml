@@ -1,0 +1,11 @@
+file_format: "1"
+id: ericht_samoklava
+name: ericht-samoklava
+type: shield
+url: https://github.com/GeorgeGo/ericht-samoklava
+requires: [pro_micro]
+features:
+  - keys
+siblings:
+  - ericht_samoklava_left
+  - ericht_samoklava_right
