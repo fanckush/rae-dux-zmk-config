@@ -1,11 +1,11 @@
 file_format: "1"
-id: ericht_samoklava
-name: ericht-samoklava
+id: rae_dux
+name: rae-dux
 type: shield
-url: https://github.com/GeorgeGo/ericht-samoklava
+url: https://github.com/andrewjrae/rae-dux
 requires: [pro_micro]
 features:
   - keys
 siblings:
-  - ericht_samoklava_left
-  - ericht_samoklava_right
+  - rae_dux_left
+  - rae_dux_right
