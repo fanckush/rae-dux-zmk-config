@@ -30,27 +30,6 @@
     combos {
         compatible = "zmk,combos";
 
-        cut {
-            bindings = <&kp LG(X)>;
-            key-positions = <1 3>;
-            layers = <0>;
-            timeout-ms = <40>;
-        };
-
-        copy {
-            bindings = <&kp LG(C)>;
-            key-positions = <1 2>;
-            layers = <0>;
-            timeout-ms = <40>;
-        };
-
-        paste {
-            bindings = <&kp LG(V)>;
-            key-positions = <2 3>;
-            layers = <0>;
-            timeout-ms = <40>;
-        };
-
         leftParet {
             bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <6 7>;
