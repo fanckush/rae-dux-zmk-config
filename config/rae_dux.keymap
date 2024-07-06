@@ -94,64 +94,64 @@
 
         default_layer {
             bindings = <
-&kp Q                   &kp W       &kp E          &kp R           &kp T        &kp Y        &kp U          &kp I        &kp O       &kp P
-&mt RA(LEFT_CONTROL) A  &mt LALT S  &mt LGUI D     &mt LSHFT F     &kp G        &kp H        &mt RSHFT J    &mt RGUI K   &mt RALT L  &mt RIGHT_CONTROL SEMICOLON
-&kp Z                   &kp X       &kp C          &kp V           &kp B        &kp N        &kp M          &kp COMMA    &kp DOT     &kp SLASH
-                                    &lt MEDIA ESC  &rht NAV SPACE  &lt BLU TAB  &lt FUN RET  &rht NUM BSPC  &lt SYM DEL
+&kp SINGLE_QUOTE        &kp COMMA   &kp DOT     &kp P        &kp Y                                                                     &kp F        &kp G        &kp C       &kp R       &kp L
+&mt RA(LEFT_CONTROL) A  &mt LALT O  &mt LGUI E  &mt LSHFT U  &kp I                                                                     &kp D        &mt RSHFT H  &mt RGUI T  &mt RALT N  &mt RIGHT_CONTROL S
+&kp SEMICOLON           &kp Q       &kp J       &kp K        &kp X                                                                     &kp B        &kp M        &kp W       &kp V       &kp Z
+                                                             &lt MEDIA ESC  &rht NAV SPACE  &lt BLU TAB    &lt FUN RET  &rht NUM BSPC  &lt SYM DEL
             >;
         };
 
         nav_layer {
             bindings = <
-&kp LG(Z)         &kp LG(X)  &kp LG(C)     &kp LG(V)  &kp LG(Y)  &none           &none           &none         &none      &none
-&kp LEFT_CONTROL  &kp LALT   &kp LEFT_GUI  &kp LSHFT  &trans     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &trans
-&trans            &trans     &trans        &trans     &trans     &kp INSERT      &kp HOME        &kp PG_UP     &kp PG_DN  &kp END
-                             &trans        &trans     &trans     &trans          &trans          &trans
+&kp LG(Z)         &kp LG(X)  &kp LG(C)     &kp LG(V)  &kp LG(Y)                                    &none           &none           &none         &none      &none
+&kp LEFT_CONTROL  &kp LALT   &kp LEFT_GUI  &kp LSHFT  &trans                                       &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &trans
+&trans            &trans     &trans        &trans     &trans                                       &kp INSERT      &kp HOME        &kp PG_UP     &kp PG_DN  &kp END
+                                                      &trans     &trans  &trans    &trans  &trans  &trans
             >;
         };
 
         num_layer {
             bindings = <
-&kp APOSTROPHE    &kp N7  &kp N8      &kp N9  &kp EQUAL          &trans  &trans     &trans         &trans    &trans
-&kp LEFT_BRACKET  &kp N4  &kp N5      &kp N6  &kp RIGHT_BRACKET  &trans  &kp LSHFT  &kp RIGHT_GUI  &kp LALT  &kp RIGHT_CONTROL
-&kp GRAVE         &kp N1  &kp N2      &kp N3  &kp BSLH           &trans  &trans     &trans         &trans    &trans
-                          &kp PERIOD  &kp N0  &kp MINUS          &trans  &trans     &trans
+&kp APOSTROPHE    &kp N7  &kp N8  &kp N9  &kp EQUAL                                               &trans  &trans     &trans         &trans    &trans
+&kp LEFT_BRACKET  &kp N4  &kp N5  &kp N6  &kp RIGHT_BRACKET                                       &trans  &kp LSHFT  &kp RIGHT_GUI  &kp LALT  &kp RIGHT_CONTROL
+&kp GRAVE         &kp N1  &kp N2  &kp N3  &kp BSLH                                                &trans  &trans     &trans         &trans    &trans
+                                          &kp PERIOD         &kp N0  &kp MINUS    &trans  &trans  &trans
             >;
         };
 
         fun_layer {
             bindings = <
-&kp F12  &kp F7  &kp F8  &kp F9  &kp PSCRN        &trans  &trans     &trans         &trans    &trans
-&kp F11  &kp F4  &kp F5  &kp F6  &kp SYSREQ       &trans  &kp LSHFT  &kp RIGHT_GUI  &kp LALT  &kp RIGHT_CONTROL
-&kp F10  &kp F1  &kp F2  &kp F3  &kp PAUSE_BREAK  &trans  &trans     &trans         &trans    &trans
-                 &trans  &trans  &trans           &trans  &trans     &trans
+&kp F12  &kp F7  &kp F8  &kp F9  &kp PSCRN                                          &trans  &trans     &trans         &trans    &trans
+&kp F11  &kp F4  &kp F5  &kp F6  &kp SYSREQ                                         &trans  &kp LSHFT  &kp RIGHT_GUI  &kp LALT  &kp RIGHT_CONTROL
+&kp F10  &kp F1  &kp F2  &kp F3  &kp PAUSE_BREAK                                    &trans  &trans     &trans         &trans    &trans
+                                 &trans           &trans  &trans    &trans  &trans  &trans
             >;
         };
 
         sym_layer {
             bindings = <
-&kp LS(LBKT)   &kp LS(N7)  &kp LS(N8)      &kp LS(N9)  &kp LS(RBKT)   &trans  &trans     &trans    &trans    &trans
-&kp LS(SEMI)   &kp LS(N4)  &kp LS(N5)      &kp LS(N6)  &kp LS(EQUAL)  &trans  &kp LSHFT  &kp RGUI  &kp LALT  &kp RIGHT_CONTROL
-&kp LS(GRAVE)  &kp LS(N1)  &kp LS(N2)      &kp LS(N3)  &kp LS(BSLH)   &trans  &trans     &trans    &trans    &trans
-                           &kp LS(PERIOD)  &kp LS(N0)  &kp LS(MINUS)  &trans  &trans     &trans
+&kp LS(LBKT)   &kp AMPERSAND  &kp ASTRK   &kp LEFT_PARENTHESIS  &kp LS(RBKT)                                                 &trans  &trans     &trans    &trans    &trans
+&kp LS(SEMI)   &kp LS(N4)     &kp LS(N5)  &kp LS(N6)            &kp LS(EQUAL)                                                &trans  &kp LSHFT  &kp RGUI  &kp LALT  &kp RIGHT_CONTROL
+&kp LS(GRAVE)  &kp LS(N1)     &kp LS(N2)  &kp LS(N3)            &kp LS(BSLH)                                                 &trans  &trans     &trans    &trans    &trans
+                                                                &kp LS(PERIOD)  &kp LS(N0)  &kp LS(MINUS)    &trans  &trans  &trans
             >;
         };
 
         media_layer {
             bindings = <
-&trans            &trans    &trans        &trans     &trans  &kp PRINTSCREEN  &trans             &none            &trans      &trans
-&kp LEFT_CONTROL  &kp LALT  &kp LEFT_GUI  &kp LSHFT  &trans  &kp C_PREVIOUS   &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_NEXT  &trans
-&trans            &trans    &trans        &trans     &trans  &trans           &trans             &kp C_MUTE       &trans      &trans
-                            &trans        &trans     &trans  &kp C_STOP       &kp C_PLAY_PAUSE   &none
+&trans            &trans    &trans        &trans     &trans                                                  &kp PRINTSCREEN  &trans             &none            &trans      &trans
+&kp LEFT_CONTROL  &kp LALT  &kp LEFT_GUI  &kp LSHFT  &trans                                                  &kp C_PREVIOUS   &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_NEXT  &trans
+&trans            &trans    &trans        &trans     &trans                                                  &trans           &trans             &kp C_MUTE       &trans      &trans
+                                                     &trans  &trans  &trans    &kp C_STOP  &kp C_PLAY_PAUSE  &none
             >;
         };
 
         blu_layer {
             bindings = <
-&trans        &trans        &trans        &trans  &trans  &bt BT_CLR  &trans      &trans      &trans  &trans
-&trans        &none         &none         &trans  &trans  &trans      &bt BT_PRV  &bt BT_NXT  &trans  &trans
-&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &none   &none   &trans      &trans      &trans      &trans  &trans
-                            &trans        &trans  &trans  &trans      &trans      &trans
+&trans        &trans        &trans        &trans  &trans                                    &bt BT_CLR  &trans      &trans      &trans  &trans
+&trans        &none         &none         &trans  &trans                                    &trans      &bt BT_PRV  &bt BT_NXT  &trans  &trans
+&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &none   &none                                     &trans      &trans      &trans      &trans  &trans
+                                                  &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
